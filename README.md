@@ -195,10 +195,10 @@ The interested reader can have a look at
 
 # Links to articles
 
-- [QOM Machine](machine.md)
-- [Memory regions](regions.md)
-- [QOM device](devices.md)
-- [Interrupts](interrupts.md)
+- [Creating a new machine](machine.md)
+- [Controlling memory regions](regions.md)
+- [Creating a new device](devices.md)
+- [Interrupts controller](interrupts.md)
 - [Timers](timers.md)
 - [PCI controller](pci.md)
 - [PCI devices](pci_slave.md)
