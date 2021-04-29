@@ -7,14 +7,19 @@ foremost how to hack into it for fun and profit.
 We won't explain usage and other things that can be found in the
 official documentation. The following topics will be addressed:
 
-- QEMU object model (QOM)
-- creating a new board, new device
-- execution mode, vCPU threads
-- adding options
-- memory model
-- tiny code generator (TCG)
-- breakpoints handling
-- snapshots
+- [Creating a new machine](machine.md)
+- [Controlling memory regions](regions.md)
+- [Creating a new device](devices.md)
+- [Interrupts controller](interrupts.md)
+- [Timers](timers.md)
+- [PCI controller](pci.md)
+- [PCI devices](pci_slave.md)
+- [Options](options.md)
+- [Execution loop](exec.md)
+- [Breakpoints handling](brk.md)
+- [VM running states](runstate.md)
+- TCG internals [part 1](tcg_p1.md), [part 2](tcg_p2.md) and [part 3](tcg_p3.md)
+- [Snapshots](snapshot.md)
 
 The official code and documentation can be found here:
 
@@ -192,22 +197,6 @@ underlying implementation. Stay pragmatic !
 
 The interested reader can have a look at
 [include/qom/object.h](https://github.com/qemu/qemu/tree/v4.2.0/include/qom/object.h).
-
-# Links to articles
-
-- [Creating a new machine](machine.md)
-- [Controlling memory regions](regions.md)
-- [Creating a new device](devices.md)
-- [Interrupts controller](interrupts.md)
-- [Timers](timers.md)
-- [PCI controller](pci.md)
-- [PCI devices](pci_slave.md)
-- [Options](options.md)
-- [Execution loop](exec.md)
-- [Breakpoints handling](brk.md)
-- [VM running states](runstate.md)
-- TCG internals [part 1](tcg_p1.md), [part 2](tcg_p2.md) and [part 3](tcg_p3.md)
-- [Snapshots](snapshot.md)
 
 # Disclaimer
 
