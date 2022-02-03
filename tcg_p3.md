@@ -293,7 +293,7 @@ again.
 
 The
 [`tcg_out_tlb_load`](https://github.com/qemu/qemu/blob/v4.2.0/tcg/i386/tcg-target.inc.c#L1699)
-code is quiet annoying to read, full of *tcg-target* opcodes
+code is quite annoying to read, full of *tcg-target* opcodes
 generators. A resulting Intel x86_64 translated block containing the
 `tlb_load` algorithm looks like the following:
 
