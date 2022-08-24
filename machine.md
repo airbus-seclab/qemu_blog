@@ -250,7 +250,7 @@ type, interrupts and exceptions initialization code.
 ### Accessing your PowerPC CPU
 
 Along the QEMU code, you will usually find dynamic type cast macro
-such as `DEVICE_CLASS, CPU_CLASS, CPU or POWERPC_CPU`. They nagivate
+such as `DEVICE_CLASS, CPU_CLASS, CPU or POWERPC_CPU`. They navigate
 with safe type checking through the inherited classes the device
 belongs to. They help you retrieve the correct definition for a given
 runtime object.
