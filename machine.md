@@ -52,7 +52,7 @@ Modules (CPIOMs) are PowerPC MPC-755 CPU based embeded equipements
 with RAM, Flash, NVM, Timers, Interrupt controller, DMA engine, PCI
 controller and others components we won't cover (AFDX, DSP).
 
-<img alt="CPIOM architecture" src="/assets/images/34A45ACD-6EBF-4C3F-93E4-DF4EE3009469.png">
+![CPIOM architecture](./assets/images/34A45ACD-6EBF-4C3F-93E4-DF4EE3009469.png)
 
 ## Code organisation
 
