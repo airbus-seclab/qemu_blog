@@ -36,7 +36,7 @@ will mainly focus on the PCI host bridge `master` and PCI slave device
 `mxfc` which exposes through BAR registers the different flash
 memories and a serial controller.
 
-<img alt="CPIOM PCI subsystem" src="/img/6d54ba55-f68f-43d1-a020-aca2e3a9468b.png">
+<img alt="CPIOM PCI subsystem" src="/assets/images/6d54ba55-f68f-43d1-a020-aca2e3a9468b.png">
 
 The code flash holds the firmware which is used to bootstrap the CPIOM
 board. It must be available to the very first instruction fetched by

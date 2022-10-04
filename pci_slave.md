@@ -6,7 +6,7 @@ let's have a look at how PCI devices really work.
 
 We will focus on the slave part of the CPIOM PCI components:
 
-<img alt="CPIOM PCI subsystem" src="/img/6d54ba55-f68f-43d1-a020-aca2e3a9468b.png">
+<img alt="CPIOM PCI subsystem" src="/assets/images/6d54ba55-f68f-43d1-a020-aca2e3a9468b.png">
 
 
 ## PCI slave device: MXFC
