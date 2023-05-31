@@ -169,7 +169,7 @@ other.
 
 When an hardware interrupt (IRQ) or exception is raised, QEMU *helps*
 the vCPU redirects execution to the appropriate handler. These
-mechanisms are very specific to the target architecture, conquentyl
+mechanisms are very specific to the target architecture, consequently
 hardly translatable. The answer comes from *helpers* which are tiny
 wrappers written in C, built with QEMU for a target architecture and
 natively callable on the host architecture directly from the
