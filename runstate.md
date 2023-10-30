@@ -37,7 +37,7 @@ are handled in the QEMU
 which executes in the QEMU startup thread, not the ones dedicated to
 [virtual
 CPUs](https://github.com/qemu/qemu/tree/v4.2.0/cpus.c#L2134). The
-function just wais for event requests to be processed in
+function just was for event requests to be processed in
 [`main_loop_should_exit`](https://github.com/qemu/qemu/tree/v4.2.0/vl.c#L1743). They
 are generally raised from the virtual CPU threads:
 
